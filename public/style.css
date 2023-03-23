@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.home .nav{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home .nav .textlar{
+    width: 350px;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #555555;
+}
+.home .nav .input{
+    display: flex;
+}
+.home .nav .input input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 288px;
+    border: 2px solid #023047;
+    padding-left: 15px;
+}
+.home .nav .input div{
+    background: #023047;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}  
+.home .section1{
+    width: 100%;
+    height: 550px;
+    background-image: url('./bg.svg');
+}
+.home .section1 .textlar2{
+    width: 470px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 185px;
+    top: 268px;
+
+}
+.home .section1 .textlar2 h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333333;
+}
+.home .section1 .textlar2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #023047;
+    margin-bottom: 18px;
+}
+.home .section1 .textlar2 .p2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 118%;
+    color: #333333;
+    margin-bottom: 18px;
+}
+.home .section1 .textlar2 button{
+    width: 130px;
+    height: 50px;
+    background: #023047;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 118%;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.home .section1 .left{
+    position: absolute;
+    left: 105px;
+    top: 365px;
+}
+.home .section1 .right{
+    position: absolute;
+    left: 1775px;
+    top: 365px;
+}
+.home .section1 .tochka{
+    position: absolute;
+    left: 50%;
+    top: 611px;
+    transform: translate(-50%x);
+}
+.home .section2{
+    width: 100%;
+    height: 650px;
+    background: #FAFAFA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-left: 350px;
+}
+.home .section2 .div1{
+    width: 600px;
+    height: 450px;
+    background: url('./bg2.svg');
+}
+.home .section2 .div1 .textlar{
+    position: absolute;
+    left: 670px;
+    top: 945px;
+}
+.home .section2 .div1 .textlar p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #023047;
+}
+.home .section2 .div1 .textlar h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.home .section2 .div1 .textlar button{
+    width: 130px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #000000;
+}
+.home .section2 .div2{
+    position: absolute;
+    width: 580px;
+    height: 210px;
+    left: 1000px;
+    top: 760px;
+    background: url('./bg3.svg');
+}
+.home .section2 .div2 .textlar2{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+}
+.home .section2 .div3{
+    position: absolute;
+    width: 580px;
+    height: 210px;
+    left: 1000px;
+    top: 1000px;
+    background: url('./bg4.svg');
+}
+.home .section2 .div2 button{
+    width: 130px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #000000;
+}
+.home .section2 .div2 h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.home .section2 .div2 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #023047;
+}
+.home .section2 .div3 .textlar3{
+    position: absolute;
+    left: 340px;
+    top: 50px;
+}
+.home .section2 .div3 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #023047;
+}
+.home .section2 .div3 h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.home .section2 .div3 button{
+    width: 130px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #000000;
+}
+.home .section3{
+    width: 100%;
+    height: 854px;
+    background: #F5F5F5;
+}
+.home .section3 .texts{
+    width: 550px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.home .section3 .texts h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.home .section3 .texts p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+.home .section3 .cards{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 1557px;
+}
+.home .section3 .cards .card1{
+    width: 370px;
+    height: 450px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.home .section3 .cards .card2{
+    width: 370px;
+    height: 450px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.home .section3 .cards .card3{
+    width: 380px;
+    height: 507px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.home .section3 .cards .card1 h1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 134.5%;
+    color: #333333;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+.home .section3 .cards .card1 p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+.home .section3 .cards .card2 h1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 134.5%;
+    color: #333333;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+.home .section3 .cards .card2 p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+.home .section3 .cards .card3 h1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 134.5%;
+    color: #333333;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+.home .section3 .cards .card3 p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+.home .section3 .cards .card3 div{
+    width: 100%;
+    height: 70px;
+    background: rgba(2, 48, 71, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .section3 .cards .card3 div button{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #023047;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.home .section3 .left{
+    position: absolute;
+    left: 67px;
+    top: 1803px;
+}
+.home .section3 .right{
+    position: absolute;
+    left: 1793px;
+    top: 1803px;
+}
+.home .section4{
+    width: 100%;
+    height: 300px;
+    background: #023047;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .section4 div{
+    width: 1070px;
+    height: 130px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home .section4 div .texts h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.home .section4 div .texts button{
+    width: 170px;
+    height: 50px;
+    border: 1px dashed #023047;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #023047;
+    cursor: pointer;
+    background: transparent;
+}
+.home .section4 div .texts p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+.home .section5{
+    width: 100%;
+    height: 600px;
+    background: #FFFFFF;
+}
+.home .section5 .texts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home .section5 .texts h1{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+.home .section5 .texts .p11{
+    width: 570px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.home .section5 .texts .p22{
+    width: 570px;
+    height: 105px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 181.5%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.home .section5 .texts .avatar{
+    margin-bottom: 12px;
+}
+.home .section5 .texts .p44{
+    margin-bottom: 32px;
+}
+.home .section5 .left{
+    position: absolute;
+    left: 265px;
+    top: 2710px;
+}
+.home .section5 .right{
+    position: absolute;
+    left: 1615px;
+    top: 2710px;
+}
+.home .section6{
+    width: 100%;
+    height: 400px;
+    background-image: url('./bg5.svg');
+}
+.home .section6 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 3162px;
+    transform: translate(-50%);
+}
+.home .section6 .text h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.home .section6 h1 .text label{
+    font-size: 40px;
+}
+.home .section6 .text p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150.5%;
+    text-align: center;
+    width: 570px;
+    color: #FFFFFF;
+}
+.home .section6 .text button{
+    width: 130px;
+    height: 50px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150.5%;
+    text-align: center;
+    color: #333333;
+    cursor: pointer;
+}
+.home .section7{
+    width: 100%;
+    height: 350px;
+    background: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home .section7 .card1{
+    width: 275px;
+    height: 155px;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .section7 .card1 h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+}
+.home .section7 .card1 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+.home .section7 .card2{
+    width: 275px;
+    height: 155px;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .section7 .card2 h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+}
+.home .section7 .card2 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+.home .section8{
+    width: 1440px;
+    height: 1029px;
+    background: #FFFFFF;
+}
+.home .section8 .text{
+    width: 570px;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 85px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.home .section8 .text h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.home .section8 .text p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.home .section8 .card1{
+    width: 670px;
+    height: 672px;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    position: absolute;
+    left: 350px;
+    top: 4040px;
+}
+.home .section8 .card1 div{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.home .section8 .card1 div .p1{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+}
+.home .section8 .card1 div h1{
+    width: 530px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration-line: underline;
+    color: #333333;
+    margin-top: 10px;
+}
+.home .section8 .card1 div .p2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+    margin-top: 10px;
+}
+.home .section8 .card1 div button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 130px;
+    height: 50px;
+    background: #023047;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.home .section8 .card2{
+    position: absolute;
+    width: 470px;
+    height: 321px;
+    left: 1050px;
+    top: 4040px;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.home .section8 .card2 div{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.home .section8 .card2 div p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #333333;
+}
+.home .section8 .card2 div h1{
+    width: 265px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.home .section8 .card2 button{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 310px;
+    top: 255px;
+    background: #023047;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.home .section8 .card3{
+    position: absolute;
+    width: 470px;
+    height: 321px;
+    left: 1050px;
+    top: 4390px;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.home .section8 .card3 div{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.home .section8 .card3 div p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #333333;
+}
+.home .section8 .card3 div h1{
+    width: 265px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.home .section8 .card3 button{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 310px;
+    top: 255px;
+    background: #023047;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.home .section9{
+    background-image: url('./bg6.svg');
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .section9 .input{
+    display: flex;
+    align-items: center;
+}
+.home .section9 h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+.home .section9 p{
+    width: 476px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.home .section9 .input input{
+    width: 450px;
+    height: 50px;
+    padding-left: 15px;
+}
+.home .section9 .input button{
+    width: 130px;
+    height: 50px;
+    background: #023047;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+}
+.home .section10{
+    width: 100%;
+    height: 696px;
+    background: #F3F3F3;
+}
+.home .section10 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .section10 .text img{
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+.home .section10 .text h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 181.5%;
+    text-align: center;
+    color: #000000;
+}
+.home .section10 .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.home .section11{
+    width: 100%;
+    height: 384px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home .section11 .text1{
+    height: 175.36328125px;
+    width: 270px;
+}
+.home .section11 .text1 .img1{
+    margin-bottom: 15px;
+}
+.home .section11 .text1 .p1{
+    width: 270px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160.5%;
+    color: #333333;
+    margin-bottom: 11px;
+}
+.home .section11 .text1 .p2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160.5%;
+    text-decoration-line: underline;
+    color: #666666;
+    margin-top: 15px;
+}
+.home .section11 .text2{
+    height: 166px;
+    width: 170px;
+}
+.home .section11 .text2 h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160.5%;
+    color: #000000;
+}
+.home .section11 .text2 p{
+    width: 120px;
+    height: 125px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #000000;
+}
+.home .section11 .text3{
+    width: 271px;
+    height: 190px;
+}
+.home .section11 .text3 h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160.5%;
+    color: #000000;
+}
+.home .section12{
+    width: 100%;
+    height: 80px;
+    background: #F3F3F3;
+    display: flex;
+    align-items: center;
+}
+.home .section12 .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.home .section12 .text p{
+    margin-left: 135px;
+}
+.home .section12 .text img{
+    margin-right: 150px;
+}
